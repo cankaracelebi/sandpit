@@ -1,0 +1,10 @@
+# Parkour with the difficulty curriculum, large budget.
+scenario: parkour
+params: {difficulty: 0.0, seconds: 30}
+curriculum: difficulty
+procs: 6
+arenas: 8
+total_steps: 20000000
+rollout: 128
+device: auto
+run_name: parkour_large

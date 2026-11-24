@@ -1,0 +1,10 @@
+runs/
+.venv/
+__pycache__/
+*.pyc
+godot/.godot/
+*.avi
+.DS_Store
+.pytest_cache/
+# big / regenerable media (README uses the GIFs + stills in media/)
+media/screenshots/check_*

@@ -1,0 +1,11 @@
+# Shooter with the full 5-stage curriculum (gallery -> movers -> dodge -> arena -> hard).
+scenario: shooter
+params: {stage: 0}
+curriculum: stage
+procs: 6
+arenas: 8
+total_steps: 30000000
+rollout: 128
+lr: 0.00025
+device: auto
+run_name: shooter_large

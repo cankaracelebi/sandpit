@@ -1,0 +1,10 @@
+# Shooter, curriculum stage 0 (1-3 static bots in front of the agent). Pixel PPO baseline.
+scenario: shooter
+params: {stage: 0}
+procs: 4
+arenas: 8
+total_steps: 300000
+rollout: 64
+device: mps
+baseline_steps: 320
+run_name: shooter_stage0

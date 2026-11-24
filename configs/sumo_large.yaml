@@ -1,0 +1,11 @@
+# Sumo self-play, large budget.
+scenario: sumo
+params: {}
+selfplay: sumo
+snapshot_every: 20
+procs: 6
+arenas: 8
+total_steps: 20000000
+rollout: 128
+device: auto
+run_name: sumo_large

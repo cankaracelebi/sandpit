@@ -1,0 +1,11 @@
+# Parkour with the difficulty curriculum (promotion at 70% success over the last 100 episodes).
+scenario: parkour
+params: {difficulty: 0.0, seconds: 20}
+curriculum: difficulty
+procs: 4
+arenas: 8
+total_steps: 200000
+rollout: 64
+device: mps
+baseline_steps: 320
+run_name: parkour_curriculum

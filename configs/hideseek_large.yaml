@@ -1,0 +1,9 @@
+# Hide and seek 2v2, hider and seeker policies co-trained, large budget.
+scenario: hideseek
+params: {mode: hideseek, seconds: 20}
+procs: 6
+arenas: 4
+total_steps: 50000000
+rollout: 128
+device: auto
+run_name: hideseek_large

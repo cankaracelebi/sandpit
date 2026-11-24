@@ -1,0 +1,12 @@
+# Sumo 1v1 self-play: one learner per arena vs a frozen snapshot from the opponent pool
+# (80% latest / 20% older snapshots).
+scenario: sumo
+params: {}
+selfplay: sumo
+snapshot_every: 5
+procs: 4
+arenas: 4
+total_steps: 100000
+rollout: 64
+device: mps
+run_name: sumo_selfplay

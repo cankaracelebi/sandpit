@@ -1,0 +1,11 @@
+# Tag 1v1: hider and seeker policies co-trained. Seekers are 25% faster; potential-based
+# distance shaping is enabled.
+scenario: tag
+params: {mode: tag, seconds: 15, seeker_speed: 1.25, tag_range: 2.0, dist_shaping: 0.05}
+procs: 4
+arenas: 4
+total_steps: 300000
+rollout: 64
+device: mps
+baseline_steps: 240
+run_name: tag_cotrain
